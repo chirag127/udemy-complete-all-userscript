@@ -25,3 +25,8 @@ browser is already authorised to call on your own enrolled courses.
   `users/me/subscribed-courses/`).
 - Marking complete is a real, server-side state change: it counts towards course progress and
   certificate eligibility. Use it on courses you intend to finish.
+
+## Open Knowledge Format
+
+See [okf/](okf/) for the self-describing bundle: architecture, testing rules, and this script's notes.
+
