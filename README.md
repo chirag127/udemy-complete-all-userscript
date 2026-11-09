@@ -28,5 +28,18 @@ browser is already authorised to call on your own enrolled courses.
 
 ## Open Knowledge Format
 
-See [okf/](okf/) for the self-describing bundle: architecture, testing rules, and this script's notes.
+See [okf/](../../../../../docs/okf/) for the self-describing bundle: architecture, testing rules, and this script's notes.
 
+<!-- docs-single-source -->
+## 📚 Documentation
+
+Documentation for this repository lives in the umbrella workspace, in exactly **one** place:
+
+| What | Where |
+|------|-------|
+| This script's note | [`docs/okf/scripts/udemy-complete-all-userscript.md`](../../../../../docs/okf/scripts/udemy-complete-all-userscript.md) |
+| All notes, catalogued | [`docs/okf/index.md`](../../../../../docs/okf/index.md) |
+| Shared knowledge | [`docs/okf/concepts/`](../../../../../docs/okf/concepts/) |
+
+It is **not** copied into this repository. Nothing in this workspace is duplicated: one
+document, one file. Verify with `node c:\ws\scripts\check-okf.mjs`.
